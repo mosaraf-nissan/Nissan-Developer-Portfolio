@@ -1,0 +1,140 @@
+.header{
+    background: #fff8f3;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-image:url('../images/developer.png');
+    background-size:100px;
+    background-position:left;
+}
+
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 68px 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.text-color{
+    color: #FD6E0A;
+}
+.btn-primary{
+    width: 150px;
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    text-align: center;
+    color: wheat;
+    font-size: 20px;
+    font-weight:700px;
+    border: 0;
+
+}
+/* bannar style */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner img{
+    width: 500px;
+    height: 600px;
+    background-image: url(../images/header_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:700px;
+}
+.im{
+    font-weight: 600;
+    font-size: 45px;
+}
+.Nissan{
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #757575;
+margin-bottom: 30px;
+}
+.cv{
+   
+    width: 200px;
+    height: 64px;
+    left: 230px;
+    top: 589px;
+    background-color:#FD6E0A;
+    border-radius: 5px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+.contact{
+    width: 200px;
+    height: 64px;
+    left: 230px;
+    top: 589px;
+    background-color:white;
+    border-radius: 5px;
+    text-align: center;
+    color:#FD6E0A;
+    font-size: 25px;
+
+}
+/* main part */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+border-radius: 10px;
+padding: 130px 150px;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+  
+}
+.section-description{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
+.info-description{
+    font-weight: 700px;
+    font-size: 20px;
+    color: black;
+}
