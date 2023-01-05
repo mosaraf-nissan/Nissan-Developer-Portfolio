@@ -229,7 +229,8 @@ border: none;
 }
 /* icon */
 .icon{
-   margin-right: 40px;
+    margin-top: 20px;
+   margin-right:85px;
 }
 /* footer */
 .footer{
@@ -237,7 +238,6 @@ border: none;
 }
 .lets-connect{
     text-align: center;
-    margin-top: 12px;
     padding-left: 200px;
 }
 .message{
