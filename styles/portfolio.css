@@ -226,7 +226,13 @@ text-align: center;
 color: #FFF8F3;
 align-items: center;
 margin-left: 430px;
+border: none;
 }
+/* icon */
+.icon{
+   margin-right: 40px;
+}
+/* footer */
 .footer{
     display: flex;
 }
@@ -255,4 +261,6 @@ margin-left: 430px;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 130px;
+    border-radius: 5px;
+    border: none;
 }
